@@ -7,22 +7,25 @@ body{
 header{
   background-color: #2d3436;
   margin: 0;
+
 }
 header h1{
   margin: 0;
-  padding: 5px 20px;
+  padding: 8px 40px;
 }
 nav ul{
   list-style: none;
   text-align: center;
-  height: 43px;
+  padding: 0;
+  height: 37px;
   white-space: nowrap;
   overflow-x: scroll;
   overflow-y: hidden;
+  box-shadow: 0 0 10px;
 }
 nav ul li{
   display: inline-block;
-  padding: 10px;
+  padding: 10px 15px;
 }
 nav ul li:hover{
   background-color: #dfe6e9;
@@ -30,18 +33,16 @@ nav ul li:hover{
   border-left: 2px solid #74b9ff;
   border-right: 2px solid #74b9ff;
   transition: 0.4s;
-  padding: 10px 8px;
+  padding: 10px 13px;
 }
 
 
 /* ITEMS CONTAINER */
 .container{
-  box-shadow: 0 0 10px #b2bec3;
-  border-radius: 4px;
   text-align: center;
-  margin: 10px 0;
+  margin: 0;
   padding: 10px 0;
-  background-color: #fdcb6e;
+  background-color: #2d3436;
   color: #636e72;
 }
 div.items{
@@ -52,7 +53,8 @@ div.items{
   text-align: center;
   display: inline-block;
   margin: 7px;
-  padding: 15px 5px;
+  padding: 15px 0;
+  width: 87px;
 }
 div.items:hover{
   transition: 0.4s;
@@ -61,7 +63,7 @@ div.items:hover{
 }
 .container p, ul{
   margin: 0;
-  padding: 5px;
+  padding: 5px 0;
 }
 .container ul{
   list-style: none;
@@ -71,9 +73,13 @@ div.items:hover{
 }
 .container ul li.sns{
   display: inline;
+  padding: 0 5px;
+}
+i{
+  transform: scale(1.2);
 }
 i:hover{
-  transform: scale(1.4);
+  transform: scale(1.5);
   transition: 0.4s;
 }
 .container p{
@@ -81,11 +87,11 @@ i:hover{
   color: #74b9ff;
   font-style: bold;
 }
-.container li.jop{
-  padding: 0 0 8px 0;
+.container li.name{
+  padding: 0 0 10px 0;
 }
 .container li a{
-  color: black;
+  color: #636e72;
 }
 
 

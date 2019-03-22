@@ -65,6 +65,8 @@ div.items{
   margin: 7px;
   padding: 15px 0;
   width: 87px;
+  position: relative;
+  overflow: hidden;
 }
 div.items:hover{
   transition: 0.4s;
@@ -86,11 +88,21 @@ div.items:hover{
   padding: 0 5px;
 }
 i{
-  transform: scale(1.2);
+
 }
 i:hover{
-  transform: scale(1.5);
+  transform: scale(1.8);
   transition: 0.4s;
+}
+div.star{
+  background-color: #636e72;
+  color: white;
+  position: absolute;
+  width: 100px;
+  height: 17px;
+  transform: rotate(45deg);
+  right: -40px;
+  top: 1px;
 }
 .container p{
   font-style: italic;

@@ -91,6 +91,9 @@ i{
 
 }
 i:hover{
+  -ms-transform: scale(1.8);
+  -webkit-transform: scale(1.8);
+  -moz-transform: scale(1.8);
   transform: scale(1.8);
   transition: 0.4s;
 }
@@ -100,6 +103,9 @@ div.star{
   position: absolute;
   width: 100px;
   height: 17px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   transform: rotate(45deg);
   right: -40px;
   top: 1px;

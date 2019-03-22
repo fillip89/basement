@@ -123,6 +123,12 @@ div.star{
 .container li a{
   color: #636e72;
 }
+.container li a.none{
+  color: #b2bec3;
+}
+.container li a.none i{
+  transform: none;
+}
 
 
 @media (min-width:700px) {

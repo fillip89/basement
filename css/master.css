@@ -90,15 +90,12 @@ div.items:hover{
   display: inline;
   padding: 0 5px;
 }
-i{
-
-}
 i:hover{
-  -ms-transform: scale(1.8);
-  -webkit-transform: scale(1.8);
-  -moz-transform: scale(1.8);
-  -o-transform: scale(1.8);
-  transform: scale(1.8);
+  -ms-transform: scale(1.6);
+  -webkit-transform: scale(1.6);
+  -moz-transform: scale(1.6);
+  -o-transform: scale(1.6);
+  transform: scale(1.6);
   transition: 0.4s;
 }
 div.star{

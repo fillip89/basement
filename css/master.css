@@ -70,6 +70,10 @@ div.items{
 }
 div.items:hover{
   transition: 0.4s;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
   transform: scale(1.1);
   background-color: #dfe6e9;
 }
@@ -94,6 +98,7 @@ i:hover{
   -ms-transform: scale(1.8);
   -webkit-transform: scale(1.8);
   -moz-transform: scale(1.8);
+  -o-transform: scale(1.8);
   transform: scale(1.8);
   transition: 0.4s;
 }
@@ -106,6 +111,7 @@ div.star{
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
   transform: rotate(45deg);
   right: -40px;
   top: 1px;

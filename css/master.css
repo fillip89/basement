@@ -15,7 +15,7 @@ header h1{
 nav ul{
   list-style: none;
   text-align: center;
-  height: 42px;
+  height: 45px;
   white-space: nowrap;
   overflow-x: scroll;
 }
@@ -56,9 +56,7 @@ div.items{
 div.items:hover{
   transition: 0.4s;
   transform: scale(1.1);
-  -webkit-fransform: scale(1.1);
-  -ms-fransform: scale(1.1);
-  -moz-fransform: scale(1.1);
+  
   background-color: #dfe6e9;
 }
 .container p, ul{

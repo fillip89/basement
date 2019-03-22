@@ -17,7 +17,7 @@ nav ul{
   text-align: center;
   height: 42px;
   white-space: nowrap;
-  overflow: scroll;
+  overflow-x: scroll;
 }
 nav ul li{
   display: inline-block;
@@ -37,7 +37,7 @@ nav ul li:hover{
   box-shadow: 0 0 10px #b2bec3;
   border-radius: 4px;
   text-align: center;
-  margin: 10px;
+  margin: 10px 0;
   padding: 10px 0;
   background-color: #fdcb6e;
   color: #636e72;

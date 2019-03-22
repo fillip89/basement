@@ -127,6 +127,10 @@ div.star{
   color: #b2bec3;
 }
 .container li a.none i{
+  -webkit-transform: none;
+  -ms-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
   transform: none;
 }
 

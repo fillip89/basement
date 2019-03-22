@@ -29,6 +29,7 @@ nav ul li:hover{
   border-left: 2px solid #74b9ff;
   border-right: 2px solid #74b9ff;
   transition: 0.4s;
+  padding: 10px 8px;
 }
 
 
@@ -55,6 +56,9 @@ div.items{
 div.items:hover{
   transition: 0.4s;
   transform: scale(1.1);
+  -webkit-fransform: scale(1.1);
+  -ms-fransform: scale(1.1);
+  -moz-fransform: scale(1.1);
   background-color: #dfe6e9;
 }
 .container p, ul{
@@ -72,6 +76,9 @@ div.items:hover{
 }
 i:hover{
   transform: scale(1.4);
+  -webkit-fransform: scale(1.4);
+  -ms-fransform: scale(1.4);
+  -moz-fransform: scale(1.4);
   transition: 0.4s;
 }
 .container p{

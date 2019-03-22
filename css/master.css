@@ -3,7 +3,6 @@ body{
   margin: 0;
   background-color: #636e72;
   color: #dfe6e9;
-  overflow: hidden;
   box-shadow: 0 0 10px;
 }
 header{
@@ -22,6 +21,10 @@ header p{
   text-shadow: 0 0 10px #74b9ff;
 }
 header h1, p{
+  -webkit-display: inline;
+  -ms-display: inline;
+  -moz-display: inline;
+  -o-display: inline;
   display: inline;
 }
 nav ul{

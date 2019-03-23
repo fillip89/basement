@@ -200,8 +200,22 @@ div.asideContainer a{
 
 /* ASIDE ANIMATION*/
 #asideID{
+  -webkit-animation-name: asideID1;
+  -ms-animation-name: asideID1;
+  -moz-animation-name: asideID1;
+  -o-animation-name: asideID1;
   animation-name: asideID1;
+
+  -webkit-animation-duration: 4s;
+  -ms-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
   animation-duration: 4s;
+
+  -webkit-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 @keyframes asideID1 {

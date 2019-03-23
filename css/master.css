@@ -189,6 +189,13 @@ div.asideItems .asideID_label{
   top: 2px;
   padding: 2px 0;
 }
+div.asideContainer a.print{
+  text-decoration: none;
+  display: inline-block;
+  width: 90%;
+  height: 1px;
+  color: #636e72;
+}
 div.asideContainer a{
   text-decoration: none;
   display: inline-block;
@@ -248,7 +255,6 @@ div.asideContainer a{
   66%{color: #fd79a8;}
   100%{color: #ff7675;}
 }
-
 
 
 /* FOOTER */

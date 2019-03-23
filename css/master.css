@@ -169,7 +169,6 @@ div.asideItems{
   display: block;
   margin: 0 auto 10px auto;
   padding: 15px 15px;
-  width: 90%;
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
@@ -190,6 +189,14 @@ div.asideItems .asideID_label{
   top: 2px;
   padding: 2px 0;
 }
+div.asideContainer a{
+  text-decoration: none;
+  display: inline-block;
+  width: 90%;
+  height: 1px;
+  color: #dfe6e9;
+}
+
 
 /* ASIDE ANIMATION*/
 #asideID{

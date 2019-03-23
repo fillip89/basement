@@ -168,11 +168,12 @@ div.asideContainer{
 div.asideItems{
   display: block;
   margin: 0 auto 10px auto;
-  padding: 15px 0;
+  padding: 15px 15px;
   width: 90%;
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
+  background-color: white;
 }
 div.asideItems .asideID_label{
   background-color: #dfe6e9;
@@ -189,28 +190,54 @@ div.asideItems .asideID_label{
   top: 2px;
   padding: 2px 0;
 }
-div#asideID1, #asideID2, #asideID3, #asideID4{
-  background-color: white;
+
+/* ASIDE ANIMATION*/
+#asideID{
+  animation-name: asideID1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
+@keyframes asideID1 {
+  0%{color: #ff7675;}
+  33%{color: #74b9ff;}
+  66%{color: #fd79a8;}
+  100%{color: #ff7675;}
+}
+
+
 
 /* FOOTER */
 footer{
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   font-style: italic;
   font-size: 13px;
   color: #b2bec3;
   box-shadow: 0 0 10px #74b9ff;
 }
+
 footer a, footer i{
   color: #74b9ff;
+  text-decoration: none;
+}
+footer p{
+  display: block;
+  margin: 0;
+  padding: 5px 0;
 }
 footer p i{
-  -webkit-transform: scale(0.7);
-  -ms-transform: scale(0.7);
-  -moz-transform: scale(0.7);
-  -o-transform: scale(0.7);
-  transform: scale(0.7);
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+footer p i:hover{
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
 }
 
 @media (min-width:700px) {

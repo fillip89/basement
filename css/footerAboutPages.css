@@ -1,0 +1,47 @@
+
+body{
+  padding-bottom: 50px;
+}
+article.footerPages{
+  margin: 20px;
+  padding: 0px;
+}
+article.footerPages h2{
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 5px solid #74b9ff;
+}
+article.footerPages p{
+ margin: 10px 0;
+ display: block;
+}
+
+article.footerPages a, footer i{
+  color: #74b9ff;
+  text-decoration: none;
+}
+article.footerPages p i{
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+article.footerPages i:hover{
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+a#goHome{
+  border: 4px solid #dfe6e9;
+  border-radius: 20px;
+  background-color: #74b9ff;
+  color: #dfe6e9;
+  font-size: 13px;
+  display: block;
+  width: 50px;
+  padding: 6px 0;
+  text-align: center;
+}

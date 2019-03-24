@@ -2,32 +2,32 @@
 body{
   padding-bottom: 50px;
 }
-article.aboutPage{
+article.footerPages{
   margin: 20px;
   padding: 0px;
 }
-article.aboutPage h2{
+article.footerPages h2{
   margin-bottom: 10px;
   padding-left: 10px;
   border-left: 5px solid #74b9ff;
 }
-article.aboutPage p{
+article.footerPages p{
  margin: 10px 0;
  display: block;
 }
 
-article.aboutPage a, footer i{
+article.footerPages a, footer i{
   color: #74b9ff;
   text-decoration: none;
 }
-article.aboutPage p i{
+article.footerPages p i{
   -webkit-transform: scale(0.6);
   -ms-transform: scale(0.6);
   -moz-transform: scale(0.6);
   -o-transform: scale(0.6);
   transform: scale(0.6);
 }
-article.aboutPage i:hover{
+article.footerPages i:hover{
   -webkit-transform: scale(0.6);
   -ms-transform: scale(0.6);
   -moz-transform: scale(0.6);
@@ -44,4 +44,8 @@ a#goHome{
   width: 50px;
   padding: 6px 0;
   text-align: center;
+}
+article.footerPages ul{
+  margin: 0;
+  padding: 0 0 0 20px;
 }

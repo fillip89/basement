@@ -288,6 +288,20 @@ footer p i:hover{
   -o-transform: scale(0.6);
   transform: scale(0.6);
 }
+footer p i#about{
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  transform: scale(0.7);
+}
+footer p i#about:hover{
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  transform: scale(0.7);
+}
 
 @media (min-width:700px) {
  html{

@@ -253,7 +253,9 @@ div.asideContainer a div#asideNone{
   66%{color: #00cec9;}
   100%{color: #ff7675;}
 }
-
+#disqus_thread{
+  margin: 10px;
+}
 
 /* FOOTER */
 footer{

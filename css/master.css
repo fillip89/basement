@@ -57,6 +57,23 @@ header p.headerInfo{
   -o-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
+header p.headerInfo:hover{
+  position: absolute;
+  right: 20px;
+  top: 14px;
+  border: 1px solid white;
+  margin: 0;
+  padding: 3px 8px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #74b9ff;
+  font-size: 12px;
+  transition: 0.1s;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
 -webkit-@keyframes headerInfo {
   0%{color: #ff7675; border-color: #ff7675;}
   33%{color: #74b9ff; border-color: #74b9ff;}

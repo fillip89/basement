@@ -9,6 +9,7 @@ header{
   background-color: #2d3436;
   margin: 0;
   padding-bottom: 10px;
+  position: relative;
 }
 header h1{
   margin: 0;
@@ -27,6 +28,44 @@ header p{
 header h1, p{
   display: inline;
 }
+header p.headerInfo{
+  position: absolute;
+  right: 20px;
+  top: 14px;
+  border: 1px solid white;
+  margin: 0;
+  padding: 3px 8px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #74b9ff;
+  font-size: 12px;
+
+  -webkit-animation-name: headerInfo;
+  -ms-animation-name: headerInfo;
+  -moz-animation-name: headerInfo;
+  -o-animation-name: headerInfo;
+  animation-name: headerInfo;
+
+  -webkit-animation-duration: 4s;
+  -ms-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  animation-duration: 4s;
+
+  -webkit-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+@keyframes headerInfo {
+  0%{color: #ff7675;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
+
+
+
 nav ul{
   list-style: none;
   text-align: center;

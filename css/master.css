@@ -65,7 +65,6 @@ header p.headerInfo{
 }
 
 
-
 nav ul{
   list-style: none;
   text-align: center;
@@ -343,6 +342,11 @@ footer p i#about{
   transform: scale(0.7);
 }
 
+@media (max-width:320px) {
+  header p#headerHiddenP{
+    display: none;
+  }
+}
 @media (min-width:700px) {
  html{
    margin: auto;

@@ -340,7 +340,17 @@ div.asideContainer a div#asideNone{
   display: block;
   font-size: 13px;
 }
-
+a#disqusProfile{
+  color: #74b9ff;
+  padding: 0;
+}
+a#disqusProfile i{
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
 
 /* FOOTER */
 footer{

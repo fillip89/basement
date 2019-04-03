@@ -1,5 +1,5 @@
 html{
-  background-color: #a4b0be;
+  background-color: #485460;
 }
 body{
   font-family: "Nanum Gothic", sans-serif;
@@ -105,7 +105,7 @@ nav ul li a{
   text-decoration: none;
   color: #dfe6e9;
   padding: 0 13px;
-  margin: -4.5px;
+  margin: 0 0 0 -4.5px;
 }
 nav ul li a:hover{
   background-color: #dfe6e9;
@@ -381,6 +381,6 @@ footer p i#about{
  html{
    margin: auto;
    width: 700px;
-   background-color: #a4b0be;
+   background-color: #485460;
  }
 }

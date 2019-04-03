@@ -9,7 +9,7 @@ article.footerPages{
 }
 article.footerPages h2{
   font-size: 20px;
-  margin-bottom: 10px;
+  margin: 40px 0 0 0;
   padding-left: 10px;
   border-left: 5px solid #74b9ff;
 }
@@ -19,6 +19,7 @@ article.footerPages h2.inner{
 article.footerPages p{
  margin: 10px 0;
  display: block;
+ line-height: 18px;
 }
 
 article.footerPages a, footer i{
